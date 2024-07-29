@@ -16,16 +16,16 @@ CREATE TABLE WorkoutSessions (
 -- task 1 populate workoutsession and members
 
 INSERT INTO Members (id, name, age) VALUES
-('101', 'Jane Doe', '24'),
-('102', 'John Smith' '43'),
-('204', 'Diane Ford', '30'),
-('304', 'Matt Riley', '21');
+(101, 'Jane Doe', '24'),
+(102, 'John Smith' '43'),
+(204, 'Diane Ford', '30'),
+(304, 'Matt Riley', '21');
 
-INSERT INTO WORKOUTSESSIONS (session_id, member_id, session_date, session_time, activity) VALUES
-('4321', '304', 'August 1 2024', '7 am', 'cycling'),
-('4321' '204', 'August 1 2024', '7 am', 'cycling'),
-('5673' '102', 'August 1 2024', '7 am', 'yoga'),
-('8954' '101', 'August 1 2024' '1 pm' 'yoga');
+INSERT INTO WorkoutSessions (session_id, member_id, session_date, session_time, activity) VALUES
+('4321', 304, 'August 1 2024', '7 am', 'cycling'),
+('4321', 204, 'August 1 2024', '7 am', 'cycling'),
+('5673', 102, 'August 1 2024', '7 am', 'yoga'),
+('8954', 101, 'August 1 2024' '1 pm' 'yoga');
 
 
 -- task 2 update workout session time
